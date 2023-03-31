@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz doc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Start quiz button-->
+    <div class="start_btn"><button>Start quiz</button></div>
+
+    <!--Info Box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of this quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">*You have only <span>60 seconds</span>for all questions</div>
+            <div class="info">*There are four options in which only one is correct.</div>
+            <div class="info">*Once your time elapse, you have completed your quiz</div>
+            <div class="info">*Read the instructions carefully</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!--Quiz Box-->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Mathematics Quiz App</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="time_sec">60</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!--<span>A triangle has how many sides?</span>-->
+            </div>
+            <div class="option_list">
+                <!--<div class="option">
+                    <span>2 sides</span>
+                </div>
+                <div class="option">
+                    <span>5 sides</span>
+                </div>
+                <div class="option">
+                    <span>3 sides</span>
+                </div>
+                <div class="option">
+                    <span>4 sides</span>
+                </div>-->
+            </div>
+        </section>
+
+        <!--quiz Box Footer-->
+        <footer>
+            <div class="total_que">
+             <!--<span><p>2</p>of<p>5</p>Question</span>-->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <!--Result Box-->
+    <div class="result_box">
+        <div class="complete_text">You have completed the Quiz!</div>
+        <div class="score_text">
+        <!--<span>oops, You got only<p>2</p>out of<p>5</p></span>-->       
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/question.js"></script>
+</body>
+</html>
